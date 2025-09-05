@@ -1,0 +1,4 @@
+agendamento de chamados com schedule ou APScheduler
+dashboard com flask
+notificações
+script de testes

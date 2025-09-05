@@ -1,0 +1,22 @@
+1. Linha 52:
+    if servico == 1 or 3 or 4:
+        inspecoes()
+    Fix: Ele sempre retorna True porque 3 e 4 são valores verdadeiros.
+
+2. Função patri()
+    def patri():
+        patris = []
+        with open('patri.txt','r') as arq:
+            for c in arq.readlines():
+                patris.append(int(c.strip()))
+        return patris
+    Fix: Fatorada usando list comprehension e erro de patrimônios com letras consertado.
+
+3. Código organizado com Classes e Módulos.
+
+Bibliotecas utilizadas.
+- Selenium: para automação com navegador
+- Argparser: Para usar argumentos no terminal
+- Questionary: Para criar o menu na falta de argumentos
+- Logging: Para salvar loggs da automação
+- Schedule: Para agendar chamados
